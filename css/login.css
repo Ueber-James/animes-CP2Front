@@ -4,7 +4,10 @@ body {
 
     margin: 0;
 
-    background-color: black;
+   background-image: url(../imagens/4286d3a2fbc6a585e066bfdb3fef2c73.jpg);
+    background-size: 99.99%;
+    background-repeat: no-repeat;
+
 
 }
 
@@ -24,7 +27,7 @@ body {
 
 .card {
 
-    background-color: rgba(19, 19, 19, 0.3);
+    background-color: rgba(19, 19, 19, 0.8);
 
     padding: 40px;
 
@@ -137,6 +140,7 @@ body {
     color: #e1e1e1;
 
     text-decoration: none;
+
     
 
 }

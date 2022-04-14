@@ -5,52 +5,11 @@ body {
     margin: 0;
 
   
-
-
-}
-
-.fk {
-    animation: fk 25s infinite;
-    
+    background-image: url("../imagens/2.jpg");
     background-size: 99.99%;
-    background-repeat: no-repeat;
+
 }
 
-@keyframes fk {
-    0% {
-      background-image: url("../imagens/1.jpg");
-    }
-    10%{
-      background-image: url("../imagens/2.jpg");
-    }
-    20% {
-      background-image: url("../imagens/3.jpg");
-    }
-    30% {
-      background-image: url("../imagens/4.jpg");
-    }
-    40% {
-      background-image: url("../imagens/5.jpg");
-    }
-    50% {
-      background-image: url("../imagens/6.jpg");
-    }
-    60% {
-      background-image: url("../imagens/7.jpg");
-    }
-    70% {
-        background-image: url("../imagens/8.jpg");
-    }
-    80% {
-        background-image: url("../imagens/9.jpg");
-    }
-    90% {
-        background-image: url("../imagens/10.jpg");
-    }
-    100% {
-        background-image: url("../imagens/12.jpg");
-    }
-    }
 
 /*login*/
 #login {

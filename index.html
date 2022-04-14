@@ -1,62 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>DHANIMES</title>
+    <link rel="stylesheet" href="css/login.css">
+    <title>DHANIME LOGIN</title>
 </head>
 <body>
-    
-    <header>
-        <div class="banner">
-            <video autoplay muted loop  id="vid">
-                <source src="imagens/Isso aqui é uma perfeição ❤.mp4" type="video/mp4">
-              </video>
-    
-        </div>
-        
-        
-        <div class="container">
-            <div class="logo">
-                <h2>DHANIMES</h2>
+    <div id="login">
+
+        <form class="card">
+
+            <div class="card-header">
+
+                <h2>Login</h2>
+
             </div>
 
-            <div>
-            <nav class="menu">
-                <div id="divBusca">
-                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
-  
+            <div class="card-content">
+
+                <div class="card-content-area">
+
+                    <label for="usuario">Usuário</label>
+
+                    <input type="text" id="usuario" autocomplete="off">
+
                 </div>
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">LISTA</a></li>
-                    <li><a href="">SOBRE NOS</a></li>
-                    <li><a href="">LOGIN</a></li>
-                </ul>
-            </nav>
-        </div>
 
-        </div>
+                <div class="card-content-area">
 
+                    <label for="password">Senha</label>
 
+                    <input type="password" id="password" autocomplete="off">
 
-    </header>
+                </div>
 
-    <main>
-        <div class="corpo">
+            </div>
 
+            <div class="card-footer">
+                <a href="./home.html"  class="submit">
+                LOGIN
+            </a>
+                
 
+            </div>
 
+        </form>
 
-
-        </div>
-
+    </div>
 
 
-
-    </main>
     
 </body>
 </html>

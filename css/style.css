@@ -39,45 +39,38 @@ body{
 
 }
 /*banner*/
-
-
 .banner{
+    margin: 0%;
+    padding: 0%;
+    height: 532px;
+}
+
+
+.banner img{
+margin: 0%;
+padding: 0%;
+    width: 100%;
+    height: 532px;
+
+}
+
+/*.banner{
     width: 100%;
    height: 532px;
+   
     
     
     }
     .banner video{
     height: 100%;
     width: 100%;
-    
+    background-image: url('imagens\capa-18.jpg');
     }
-  
 
-/*.banner{
-
-    margin: 0%;
-    padding: 0%;
-    height: 532px;
-    width: 100vw;
-    
-  
-    
-}
-
-
-.banner video{
-    
-   width: 100vw;
-   height: 100%;
    
+  
 
-}
 
-#vid{
-    width: 100%;
-}
-*/
 
 /*menu*/
 .logo {
@@ -157,15 +150,72 @@ body{
     width:160px;
   }
 
-/*MAIN*/
+/*footer*/
 
-.corpo{
-   width: 80%;
-   height: auto;
-   margin: 0 auto;
-    
-    background-color: rgb(15, 15, 15);
+footer{
+    background-color: rgb(17, 17, 17);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px 0;
+    bottom: 0;
+    gap: 10px;
+}
+
+.controleFooter{
+    display: flex;
+    flex-direction: row;
+}
+
+.caixafooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
 
 }
 
+.icone{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    border-radius: 100px;
 
+}
+
+.icone a img {
+    width: 35px;
+    height: 35px;
+    transition: 0.3s;
+}
+
+.icone  a  img {
+    width: 55px;
+    height: 55px;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.icone a img:hover{
+    transform: scale(1.2) rotate(360deg);
+}
+
+footer p{
+    font-size: 15px;
+    font-style: arial;
+    font-family: 'Ramaraja',serif;
+    color: white;
+}
+
+.rodapeTexto{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+    color:rgb(255, 255, 255)
+}

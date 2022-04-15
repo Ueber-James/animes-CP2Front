@@ -51,31 +51,28 @@ body {
 }
 
 .card-header {
-
+    text-align: center;
+    margin-left: 30px;
+    color: rgb(167, 19, 19);
+    margin: 15px;
     padding-bottom: 50px;
 
     opacity: 0.8;
 
-    color: #fff;
+    
 
 }
 
-.card-header::after {
+.card-header h2 {
+    display: inline-block;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(255, 255, 255) 20%,rgb(255, 0, 0) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding:0;
 
-    content: "";
-
-    width: 70px;
-
-    height: 1px;
-
-    background-color: #fff;
-
-    display: block;
-
-    margin-top: -17px;
-
-    margin-left: -5px;
-
+    
 }
 
 .card-content label {
